@@ -6,4 +6,4 @@ if((b>=97 and b<=122) or (b>=65 and b<=90)):
     else:
         print("Consonant")
 else:
-    print("Invalid")
+    print("invalid")
