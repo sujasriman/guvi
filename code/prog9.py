@@ -1,5 +1,6 @@
-N=int(input())
-K=int(input())
+N,K=input().split()
+N=int(N)
+K=int(K)
 s=0
 if(N>0):
     for i in range(1,K+1):
