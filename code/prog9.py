@@ -3,8 +3,6 @@ N=int(N)
 K=int(K)
 s=0
 if(N>0):
-    for i in range(1,N+1):
-        print(i)
     if(K>0 and K<=N):
         for i in range(1,K+1):
             s=s+i
