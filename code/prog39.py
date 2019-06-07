@@ -1,2 +1,2 @@
-arr=list(map(int,input().split()))
-print(max(arr))
+b=list(map(int,input().split()))
+print(max(b))
