@@ -1,4 +1,5 @@
-h1,m1,h2,m2=input().split()
+h1,m1=input().split()
+h2,m2=input().split()
 h1=int(h1)
 m1=int(m1)
 h2=int(h2)
