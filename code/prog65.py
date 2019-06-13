@@ -1,4 +1,5 @@
 string=input()
 l=[]
 l=string.split()
-print(''.join(l))
+for i in range(len(l)):
+    print(l[i],end=' ')
