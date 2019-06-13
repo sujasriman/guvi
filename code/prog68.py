@@ -1,5 +1,7 @@
-num=int(input())
-if(num%7==0):
+num=input()
+num=int(num)
+a=num%7
+if(a==0):
     print("yes")
 else:
     print("no")
