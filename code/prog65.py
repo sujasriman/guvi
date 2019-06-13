@@ -1,2 +1,4 @@
 string=input()
-print(string)
+l=[]
+l=string.split()
+print(''.join(l))
