@@ -8,4 +8,3 @@ for i in range(n):
         print(l1[i],end='->')
     else:
         print(l1[i])
-print(l1)
