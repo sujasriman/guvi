@@ -6,5 +6,6 @@ for i in range(len(string)):
             l.append(string[i][j].upper())
         else:
             l.append(string[i][j].lower())
-    l.append(' ')
+    if(i!=(len(string)-1)):
+        l.append(' ')
 print(''.join(l))
