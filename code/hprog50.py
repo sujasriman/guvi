@@ -1,0 +1,14 @@
+a,b=input().split()
+a=int(a)
+b=int(b)
+c=0
+s=0
+if(a>b):
+    while(1):
+        s=s+b
+        c+=1
+        if(s==a):
+            break
+    print(c)
+else:
+    print(0)
