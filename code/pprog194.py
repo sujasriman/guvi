@@ -5,6 +5,8 @@ def r_p_s(a,b):
         return 'R'
     elif((a=='S' and b=='P')or(a=='P' and b=='S')):
         return 'S'
+    elif(a==b):
+        return 'D'
 c,d=input().split()
 ans=r_p_s(c,d)
 print(ans)
