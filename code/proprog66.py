@@ -3,7 +3,6 @@ a=int(a)
 b=int(b)
 f=int(f)
 k=int(k)
-distance=a*k
 c=b
 count=0
 if(a<b and a>f):
