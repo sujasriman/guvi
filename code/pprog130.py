@@ -9,6 +9,9 @@ for i in range(n):
         l1.append(s)
     else:
         l1.append(l[i])
-for i in range(len(l1)-1):
-    print(l1[i],end=' ')
-print(l1[len(l)-1])
+if(len(l1)==1):
+    print(l1[0])
+else:
+    for i in range(len(l1)-1):
+        print(l1[i],end=' ')
+    print(l1[len(l)-1])
