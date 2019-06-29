@@ -1,4 +1,5 @@
 n,k=input().split()
+a=input()
 n=int(n)
 k=int(k)
 l1=list(map(int,input().split()))
