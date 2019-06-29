@@ -3,9 +3,9 @@ l1=[]
 l=list(map(int,input().split()))
 for i in range(n):
     s=0
-    if(l[i]%2==0):
-        for j in range(i+1):
-            s=s+l[j]
+    for j in range(i+1):
+        s=s+l[j]
+    if(s%2==0):
         l1.append(s)
     else:
         l1.append(l[i])
