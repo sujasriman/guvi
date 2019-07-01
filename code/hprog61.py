@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+u,v=input().split()
+u=int(u)
+v=int(v)
+a=l.index(u)
+b=l.index(v)
+if(a>b):
+    print(a-b)
+else:
+    print(b-a)
