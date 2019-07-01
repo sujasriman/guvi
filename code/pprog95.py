@@ -1,0 +1,11 @@
+n,p,k=input().split()
+n=int(n)
+p=int(p)
+k=int(k)
+l=[]
+while(n>0):
+    rem=n%10
+    l.append(rem)
+    n=n//10
+l.reverse()
+print(l[p+k-1])
