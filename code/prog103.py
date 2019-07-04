@@ -7,6 +7,6 @@ for i in range(len(l)):
       l1.append(l[i][j].upper())
     else:
       l1.append(l[i][j])
-  if(i!=len(l)):
+  if(i!=len(l) or j!=len(l[i])):
     l1.append(' ')
 print(''.join(l1))
