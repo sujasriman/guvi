@@ -12,8 +12,12 @@ for i in range(l.index('|')):
     l1.append(l[i])
 for i in range(l.index('|')+1,len(l)):
     l2.append(l[i])
-for i in range(len(l3)):
-    l2.append(l3[i])
+if(len(l1)>=len(l2)):
+    for i in range(len(l3)):
+        l2.append(l3[i])
+else:
+    for i in range(len(l3)):
+        l1.append(l3[i])
 if(len(l1)==len(l2)):
     l1=''.join(l1)
     l2=''.join(l2)
