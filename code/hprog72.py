@@ -3,7 +3,11 @@ l1=[]
 for i in range(len(l)):
     a=''
     if(i%2==0):
-        for j in range(len(l[i])-1,-1,-1):
+        if('.' in l[i]):
+            n=len(l[i])-2
+        else:
+            n=len(l[i])-1
+        for j in range(n,-1,-1):
             a=a+l[i][j]
         l1.append(a)
     else:
