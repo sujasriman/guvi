@@ -9,6 +9,5 @@ for i in range(len(s)):
             b=b+a[k]
         if(a==b):
             l.append(a)
-l.reverse()
 for i in range(len(l)):
     print(l[i])
